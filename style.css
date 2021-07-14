@@ -40,14 +40,14 @@ h2{
 
 }
 
-.fireBorder {
-  border:3px dashed red ;
+#fire {
+  background-color: red ;
 }
 
-.waterBorder {
-  border: 5px double blue';
+#water {
+  background-color:blue
 }
 
-.earthBorder {
-  border: '6px groove green'
+#earth {
+  background-color: green
 }
