@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1>Meme Generator</h1><br>
+   
+</header>
+  <main>
+      <section id='inputs'>
+        <label for="text-input">Texto do meme:</label><br>
+        <textarea id='text-input' rows="5" cols="30"  maxlength="60"></textarea><br>
+        <input id='meme-insert' type="file" name="myfile" multiple accept="image/*" style="display:none">
+        <a href="#" id="link-input">Selecione sua imagem</a>
+      </section>
+      <div id='meme-image-container'>
+        <img id='meme-image' src='' alt=''>
+        <div id='div-text'>
+          <h2 id='meme-text'></h2>
+        </div>
+        <div id='buttons'>
+          
+        </div>
+        
+        
+        <br>
+     </div>
+   
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
